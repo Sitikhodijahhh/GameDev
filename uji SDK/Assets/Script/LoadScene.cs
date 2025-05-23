@@ -16,4 +16,8 @@ public class LoadScene : MonoBehaviour
     {
         Time.timeScale = 1;
     }
+    public void ExitGame()
+    {
+        SceneManager.LoadScene("mainmenu");
+    }
 }
